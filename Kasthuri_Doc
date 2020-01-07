@@ -1,0 +1,66 @@
+	
+
+Overview Description of Business Process and IT process Covered
+	This process is to ensure that monitoring CMM Password Reset/Account Unlock incidents. 
+The user will raise an incident for Account unlock / Password Reset using Form 346 (https://myglobalit.cargill.com/Request/Confirm/?requestType=form&formId=346).
+
+We need to create a Vendor ticket to Reset/Unlock account for CMM. Then Vendor team will take the necessary action for the request.
+
+
+Consider the below steps to do the resolve CMM Password Reset/Account Unlock incidents
+Scenario for Password Reset:
+	Step-1:  Logon to Ion portal to log the Reset/Unlock account ticket.
+ 
+ 
+	
+
+
+
+Step-2: Click on New Request tab and select WS-MService.
+  
+
+Step-3: Please provide the necessary details like User name and mail id. Please consider the below sample request as a Model.
+Ticket Number: ASP-167182
+ 
+
+Step-4: After created the ASP- Ticket, we should provide the ACL Approval for the ticket to proceed further by Vendor. Add the comment over the ticket as Approved.
+Step-5: We should check the status of the ticket is Resolved then check the comment whether the password has been shared to user mail
+ 
+
+
+
+
+Step-6: The user should notify like the temp password has been shared to their email and should follow the steps to reset the password. 
+Template: 
+The temporary password has been shared to your mail.
+Please follow the below steps to reset your password.
+
+URL: https://citrixprod7409.cargill.com/Citrix/XenApp
+
+•             Click on the above URL, Log-in using the temp password.
+•             After logging in , provide the temp password as old password.
+•             On New password field provide a password of your wish and confirm the same.
+•             After giving the new password , try to login with the new password in CMM web-suite (https://cmmprod7409.cargill.com:20100/websuite/index.websuite.pf.txn_capture.203.do).
+
+NOTE: Kindly check and let us know whether you are able to login CMM
+Include -SERVICE-OPS-AP-SUPPORT-TEAM service-ops-ap-support-team@cargill.com along with the user mail.
+Scenario for Unlock Account:
+	Step-1:  Logon to Ion portal to log the Reset/Unlock account ticket.
+  
+	
+
+
+
+Step-2: Click on New Request tab and select WS-MService.
+  
+
+Step-3: Please provide the necessary details like User name and mail id. Please consider the below sample request as a Model.
+Ticket Number: ASP-167306
+ 
+
+Step-4: After created the ASP- Ticket, we should provide the ACL Approval for the ticket to proceed further by Vendor. Add the comment over the ticket as Approved.
+Step-5: : We should check the status of the ticket is Resolved then check the comment whether the user account has been unlocked. Share the communication to user via mail.
+Note: -SERVICE-OPS-AP-SUPPORT-TEAM service-ops-ap-support-team@cargill.com along with the user mail.
+ 
+Access required for accomplishing this task:
+ We should raise a vendor ticket to get the access for ION Portal and also get added on ACL Approval list for the corresponding id.
